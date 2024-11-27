@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'inter';
+  src: url('/fonts/inter.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'inter', sans-serif;
 }
 
 @layer base {
